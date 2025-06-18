@@ -15,3 +15,8 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 # Rebuild trigger
+
+This repository now includes a profile page for **gaooh** available at
+`/gaooh.html` when running the site locally or after building. The page
+introduces gaooh as a software engineer who loves cats, lions, beer and
+road bikes, and provides links to various social profiles.
