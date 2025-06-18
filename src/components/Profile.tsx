@@ -1,16 +1,31 @@
 const Profile = () => {
   return (
-    <section id="profile" className="max-w-4xl mx-auto py-16 px-4 text-center">
-      <h2 className="text-3xl font-bold mb-4">Profile</h2>
-      <img
-        className="w-32 h-32 rounded-full mx-auto mb-4"
-        src="https://via.placeholder.com/150"
-        alt="Profile"
-      />
-      <p>
-        Short bio goes here. I'm a software developer specializing in web
-        technologies.
+    <section id="profile" className="max-w-xl mx-auto my-8 p-4 text-gray-800">
+      <h1 className="text-4xl font-bold mb-4 text-center">gaooh</h1>
+      <p className="mb-6 text-center">
+        ソフトウェアエンジニア。猫とライオンをこよなく愛し、ビールを片手にロード
+        バイクで走ることが好きです。
       </p>
+      <ul className="space-y-2">
+        <li>
+          <a className="text-blue-500 underline" href="https://gaooh.hatenablog.com/">Blog</a>
+        </li>
+        <li>
+          <a className="text-blue-500 underline" href="https://x.com/gaooh">X (Twitter)</a>
+        </li>
+        <li>
+          <a className="text-blue-500 underline" href="https://www.instagram.com/gaooh/">Instagram</a>
+        </li>
+        <li>
+          <a className="text-blue-500 underline" href="https://www.facebook.com/akiko.asami">Facebook</a>
+        </li>
+        <li>
+          <a className="text-blue-500 underline" href="https://www.wantedly.com/id/gaooh">Wantedly</a>
+        </li>
+        <li>
+          <a className="text-blue-500 underline" href="https://www.strava.com/athletes/89243892">Strava</a>
+        </li>
+      </ul>
     </section>
   );
 };
